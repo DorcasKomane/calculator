@@ -10,6 +10,10 @@ main {
     max-width: 400px;
 }
 
+body {
+
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -37,19 +41,27 @@ main {
 }
 
 .key {
-    /* border: 1px solid blue; */
-    /* max-width: fit-content; */
-    padding: 30px 10px;
+    /* padding: 30px 10px;
+    text-align: center;
+    color: #f5f5f5; */
+}
+
+.btn {
+    padding: 30px 30px;
     text-align: center;
     color: #f5f5f5;
-    
+    outline: none;
+    border: none;
+    background: #5E577E;
+    min-width: 100%;
+
 }
 
 .top-row-key {
     background: #363546;
 }
 
-.number, .bottom-row-key {
+.bottom-row-key {
     background: #5E577E;
 }
 
